@@ -48,7 +48,7 @@ body{
   outline: #fd7e14;
   border-radius: 5px;
   padding-left:10px;
-  color: rgb(175, 172, 172);
+  color: rgb(0, 0, 0);
   font-weight: 500;
 }
 
@@ -76,7 +76,7 @@ body{
 }
 
 .input-1::placeholder{
-  color: #a9a9a9;
+  color: #645f5f;
 }
 
 @media (max-width:800) {
