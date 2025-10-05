@@ -6,14 +6,16 @@
 }
 body{
   font-family:" Outfit";
-  background:linear-gradient(#009a71, #021f20);
+  background:linear-gradient(#2bbbc8, #000000);
 }
 
 .contact-container{
+  margin-top:5px ;
+  margin-bottom: 10px;
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content:center;
 
 
 }
@@ -25,7 +27,7 @@ body{
 }
 .contact-left-title h2{
   font-weight: 60;
-  color:#fd7e14;
+  color:#ffffff;
   font-size: 20px;
   margin-bottom: 5px;
 
@@ -42,8 +44,8 @@ body{
 
 
 .input-1{
-  width: 250px;
-  height: 35px;
+  width: 300px;
+  height: 50px;
   border:#000;
   outline: #fd7e14;
   border-radius: 5px;
@@ -54,7 +56,7 @@ body{
 
 .button{
   color:white;
-  background: linear-gradient(270deg,#e9680c,#29070d );
+  background: linear-gradient(270deg,#d70d0d,#2b7397 );
   width: 60px;
   height: 30px;
   border-radius: 5px;
@@ -65,9 +67,9 @@ body{
 
 .contect-left textarea{
   padding-top: 10px;
-  height: 130px;
+  height: 150px;
   border-radius: 5px;
-  width: 250px;
+  width: 300px;
 }
 
 .input-1:focus{
@@ -87,6 +89,11 @@ body{
     display: none;
   }
   
+}
+.contact-left-title span{
+  color: #000000;
+  font-size:30px;
+  margin-top: 20px;
 }
 
 
